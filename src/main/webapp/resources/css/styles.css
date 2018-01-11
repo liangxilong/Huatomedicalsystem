@@ -1,0 +1,187 @@
+body {
+	margin-top: 0px;
+	background-color: #F2FFE5;
+	font-size:12px;
+	/* border: 0;
+	margin: 0; */
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+li {
+	list-style: none;
+}
+.title{
+	width:100%;
+	background: url("../images/top2.jpg") repeat-x; 
+}
+.top{
+	height:40px;
+	line-height:40px;
+	background: url("../images/top_bg1.jpg") repeat-x;
+	font-size: 16px;
+	padding-left:60px;
+	text-align: inherit;
+}
+td{
+	font-size:12px;
+}
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+img{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+a:link{
+	font-family:Verdana;
+	font-size:12px;
+	color:#036500;
+	text-decoration: underline;
+}
+a:hover{
+	font-family:Verdana;
+	font-size:12px;
+	color:red;
+	text-decoration:none;
+}
+a:actice{
+font-family:Verdana;
+font-size:12px;
+color:red;
+text-decoration:none;
+}
+a:visited{
+font-family:Verdana;
+font-size:12px;
+color:#036500;
+text-decoration: underline;
+}
+
+.wel{
+	font-size: 14px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+.exit{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+.sidedl dd{
+	display: none;
+}
+.cur{
+	display: block;
+}
+
+.ul_div li{
+	color:white;
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+	height: 36px;
+	line-height:36px;
+	text-align:center; 
+	cursor: pointer;
+}
+
+.ul_div li:active {
+	color:#4D8B1E;
+	background-color: #CCEFAB;
+	border-radius: 5px;
+}
+.login_div {
+	float: right;
+	margin-right: 50px;
+}
+
+.sidedl{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+
+.sidedl > dt{
+	position:relative;
+	height:33px;
+	line-height:33px;
+	text-align:inherit;
+	width:140px;
+	background: url("../images/m1.jpg") no-repeat;
+	font-size: 16px;
+	padding-left: 60px;
+}
+
+.sidedl dd dt{
+	position:relative;
+	height:33px;
+	/* margin-left:-40px; */
+	line-height:33px;
+	text-align:center;
+	width:200px;
+	font-size: 14px;
+	background-color: #E0FBC4;
+}
+/* .sidedl dd{
+	background-color: #E0FBC4;
+} */
+
+.sidedl dt .ico {
+     background: rgba(0, 0, 0, 0) url("../images/ico.png") no-repeat scroll left -350px;
+     height: 12px;
+     position: absolute;
+     right: 15px;
+     top: 15px; 
+     width: 12px;
+     display: inline-block;
+     vertical-align: middle;
+}
+ .sidedl .cur .ico{
+    background-position: left -400px;
+}
+
+.sidedl dd  .span {
+	display: inline-block;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	/* margin:5px 0; */
+	width:150px;
+	color: #036500;
+} 
+.sidedl dd  .span .ico {
+	right:30px;
+}
+.sidedl dd .span:hover {
+	background-color: white;
+}
+.sidedl dd dl .content{
+	border:2px solid #77B933; 
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	top:0;
+	left:220px;
+}
+
+.sidedl dd .content .content-1 .id1{
+	font-size:14px;
+	font-weight:bold;
+	height:36px;
+	line-height:36px;
+	padding-left:20px;
+	text-align:inherit;
+	background: url("../images/title_bg1.jpg") repeat-x;
+}
+
+
+
+

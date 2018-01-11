@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.bdqn.model">
+	<class name="StaffInfo" table="staff_info">
+		<id name="staffInfoId" column="staff_info_id">
+			<generator class="native"/>
+		</id>
+		<property name="staffInfoName" column="staff_info_name"/>
+		<property name="staffInfoDuty" column="staff_info_duty"/>
+		<property name="staffInfoEducation" column="staff_info_education"/>
+		<property name="staffInfoSex" column="staff_info_sex"/>
+		<property name="staffInfoBirthday" column="staff_info_birthday"/>
+		<property name="staffInfoNation" column="staff_info_nation"/>
+		<property name="staffInfoCardNo" column="staff_info_card_no"/>
+		<property name="staffInfoMarriage" column="staff_info_marriage"/>
+		<property name="staffInfoHealth" column="staff_info_health"/>
+		<property name="staffInfoStartWork" column="staff_info_start_work"/>
+		<property name="staffInfoAddress" column="staff_info_address"/>
+		<property name="staffInfoPhone" column="staff_info_phone"/>
+		<property name="staffInfoEmail" column="staff_info_email"/>
+		<property name="staffInfoImage" column="staff_info_image"/>
+		<property name="staffInfoTitle" column="staff_info_title"/>
+		<property name="staffInfoSalary" column="staff_info_salary"/>
+		<!-- <one-to-one name=""></one-to-one> -->
+	</class>
+</hibernate-mapping>

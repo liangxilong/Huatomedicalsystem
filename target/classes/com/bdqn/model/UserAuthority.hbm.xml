@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.bdqn.model">
+	<class name="UserAuthority" table="user_authority">
+		<id name="id" column="user_authority_id">
+			<generator class="native"/>
+		</id>
+		<property name="userName" column="user_authority_name" />
+		<property name="password"  column="user_authority_pass" />
+		<property  name="level" column="user_authority_level" />
+		<property  name="userId" column="user_authority_staff_id" />
+	</class>
+	
+		
+</hibernate-mapping>
